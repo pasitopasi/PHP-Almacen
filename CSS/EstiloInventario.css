@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-nov-2016, 18:25:30
+    Author     : pasi9
+*/
+body{
+    background: url("../Imagenes/inventario.jpg") no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: #cccccc;
+    border: 3px solid #cc6600;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid #666666;
+    font: normal 11px verdana, arial, helvetica, sans-serif;
+    color: #363636;
+    background: #f6f6f6;
+    text-align:left;
+}
+caption {
+    text-align: center;
+    font: bold 40px arial, helvetica, sans-serif;
+    background: transparent;
+    padding:6px 4px 8px 0px;
+    color: #CC00FF;
+    text-transform: uppercase;
+}
+h2{
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    width: 600px;
+}

@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-nov-2016, 17:37:38
+    Author     : pasi9
+*/
+body{
+    background: url("../Imagenes/fondolistado.jpg") no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+}
+table{
+    margin: 0 auto;
+}
+table,td,th {
+    border-collapse:collapse;
+}
+table {
+    border: 3px solid blue;
+    font-family: Garamond, Georgia, "Times New Roman", Times, serif;
+    border-radius: 20px;
+}
+td, th{	
+    vertical-align:top;
+    font-weight:normal;	
+}
+
+tfoot td, tfoot th {
+    border-top:1px solid #2293FF;
+    border-right: none;
+    font-weight: bolder;
+    font-size: 110%;
+    padding: 0.4em 0.5em 0.4em 0.5em;
+}
+
+tbody td, tbody th {
+    background-color: #D9ECFF;
+    border-right:1px solid #2293FF;
+    font-size: 110%;
+    padding: 0.4em 0.5em 0.4em 0.5em;
+}
+
+tbody th{	
+    font-weight: bold;	
+    border-left:1px solid #2293FF
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: #cc6600;
+}
+h1{
+    background-color: black;
+    color: white;
+}

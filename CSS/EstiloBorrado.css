@@ -1,0 +1,31 @@
+body{
+    background: url("../Imagenes/allatu.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-color: #E0F8F7;
+}
+
+table{
+    width: 750px;
+    margin: 0 auto;
+    background-color: white;
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    background: #fff;
+    overflow: hidden;
+    border: 3px solid #cc6600;
+    border-radius: 20px;
+}
+th {
+    color: #00496B; 
+    border: 1px solid #E1EEF4;
+    font-size: 12px;
+    font-weight: normal;
+}
+td{
+    border: 1px solid #E1EEF4;
+}
+h3{
+    color: #00496B; 
+    border-left: 1px solid #E1EEF4;
+    font-size: 20px;
+    font-weight: normal;
+}
